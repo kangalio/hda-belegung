@@ -1,6 +1,5 @@
-import * as fs from "fs";
-import * as yaml from "yaml";
 import { z } from "zod";
+import * as yaml from "yaml";
 import { parseTermin, ModulTermin } from "./termin";
 
 // Zod schemas for each layer
@@ -27,7 +26,8 @@ type ModulGruppe = {
   termine: ModulTermin[];
 };
 
-function transformYamlToModule(data: z.infer<typeof YamlRootSchema>): Modul[] {
+function transformYamlToModule(yamlString: string): Modul[] {
+  const data = YamlRootSchema.parse(yaml.parse(yamlString));
   return Object.entries(data).map(([name, angebote]) => ({
     name,
     angebote: Object.entries(angebote).map(([prof, teile]) => ({
@@ -46,6 +46,15 @@ function transformYamlToModule(data: z.infer<typeof YamlRootSchema>): Modul[] {
   }));
 }
 
-const module = transformYamlToModule(
-  YamlRootSchema.parse(yaml.parse(fs.readFileSync("data.yaml", "utf-8")))
-);
+export {
+  YamlTerminSchema,
+  YamlGruppenSchema,
+  YamlTeilSchema,
+  YamlProfSchema,
+  YamlRootSchema,
+  Modul,
+  ModulAngebot,
+  ModulTeil,
+  ModulGruppe,
+  transformYamlToModule,
+};

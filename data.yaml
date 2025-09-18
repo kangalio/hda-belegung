@@ -18,7 +18,7 @@
 # https://my.h-da.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&_flowExecutionKey=e10s1
 # https://my.h-da.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&_flowExecutionKey=e11s1
 
-ki:
+künstliche intelligenz:
   pino:
     v:
       - Montag, 06.10.25 - 26.01.26 von 10:15 bis 11:45 wöchentlich D14 / 00.04
@@ -37,7 +37,7 @@ ki:
       c2: Montag, 13.10.25 - 08.12.25 von 12:00 bis 13:30 14-täglich D14 / 04.03
       c3: Montag, 06.10.25 - 15.12.25 von 10:15 bis 11:45 14-täglich D14 / 04.03
       c4: Dienstag, 14.10.25 - 09.12.25 von 12:00 bis 13:30 14-täglich D14 / 04.03
-vs:
+verteilte systeme:
   burchard:
     v:
       - Dienstag, 07.10.25 - 16.12.25 von 08:30 bis 10:00 14-täglich D14 / 03.04
