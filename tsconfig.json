@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2019"],
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["*.ts"]
+}
