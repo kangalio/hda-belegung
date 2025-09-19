@@ -18,7 +18,7 @@
 # https://my.h-da.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&_flowExecutionKey=e10s1
 # https://my.h-da.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&_flowExecutionKey=e11s1
 
-künstliche intelligenz:
+ki:
   pino:
     v:
       - Montag, 06.10.25 - 26.01.26 von 10:15 bis 11:45 wöchentlich D14 / 00.04
@@ -37,7 +37,7 @@ künstliche intelligenz:
       c2: Montag, 13.10.25 - 08.12.25 von 12:00 bis 13:30 14-täglich D14 / 04.03
       c3: Montag, 06.10.25 - 15.12.25 von 10:15 bis 11:45 14-täglich D14 / 04.03
       c4: Dienstag, 14.10.25 - 09.12.25 von 12:00 bis 13:30 14-täglich D14 / 04.03
-verteilte systeme:
+vs:
   burchard:
     v:
       - Dienstag, 07.10.25 - 16.12.25 von 08:30 bis 10:00 14-täglich D14 / 03.04
@@ -51,41 +51,39 @@ verteilte systeme:
       c2: Donnerstag, 09.10.25 - 18.12.25 von 10:15 bis 11:45 14-täglich D14 / 03.10
       c3: Donnerstag, 16.10.25 - 11.12.25 von 10:15 bis 11:45 14-täglich D14 / 03.10
       c4: Donnerstag, 16.10.25 - 11.12.25 von 16:00 bis 17:30 14-täglich D14 / 03.10
-advanced systems programming:
+asp:
   bormann:
     v: Freitag, 10.10.25 - 30.01.26 von 14:15 bis 15:45 wöchentlich D14 / 03.03
     p:
       p01: Freitag, 10.10.25 - 30.01.26 von 16:00 bis 17:30 wöchentlich D14 / 03.03
       p02: Freitag, 10.10.25 - 30.01.26 von 10:15 bis 11:45 wöchentlich D14 / 01.04
-fortgeschrittene webentwicklung:
-  "wohlfahrt/schulz":
-    vü: Mittwoch, 08.10.25 - 28.01.26 von 16:00 bis 19:15 wöchentlich D14 / 00.04
-performance von anwendungen:
+web:
+  wohlfahrt/schulz:
+    v: Mittwoch, 08.10.25 - 28.01.26 von 16:00 bis 19:15 wöchentlich D14 / 00.04
+perf:
   burchard:
     v: Mittwoch, 08.10.25 - 28.01.26 von 08:30 bis 10:00 wöchentlich D14 / 01.04
     p:
       p01: Montag, 06.10.25 - 26.01.26 von 10:15 bis 11:45 wöchentlich D14 / 03.10
       p02: Montag, 06.10.25 - 26.01.26 von 08:30 bis 10:00 wöchentlich D14 / 03.10
-unix for software developers:
+unix:
   reuschling:
     v: Montag, 06.10.25 - 26.01.26 von 14:15 bis 15:45 wöchentlich D14 / 02.03
     p:
       p01: Mittwoch, 08.10.25 - 28.01.26 von 14:15 bis 15:45 wöchentlich D14 / 03.03
       p02: Mittwoch, 08.10.25 - 28.01.26 von 16:00 bis 17:30 wöchentlich D14 / 03.03
-projektmanagement:
+pm:
   bruhn:
-    v:
-      p01: Montag, 13.10.25 - 08.12.25 von 14:15 bis 17:30 14-täglich D14 / 00.04
+    v: Montag, 13.10.25 - 08.12.25 von 14:15 bis 17:30 14-täglich D14 / 00.04
   burda:
-    v:
-      p02: Donnerstag, 09.10.25 - 29.01.26 von 12:00 bis 13:30 wöchentlich D14 / 03.04
-fortgeschrittene programmierung mit python:
+    v: Donnerstag, 09.10.25 - 29.01.26 von 12:00 bis 13:30 wöchentlich D14 / 03.04
+py:
   bühler:
     v: Mittwoch, 08.10.25 - 28.01.26 von 08:30 bis 10:00 wöchentlich D14 / 02.03
     p:
       p01: Donnerstag, 09.10.25 - 29.01.26 von 08:30 bis 10:00 wöchentlich D15 / 02.02
       p02: Donnerstag, 09.10.25 - 29.01.26 von 10:15 bis 11:45 wöchentlich D15 / 02.02
-iot grundlagen und praxis:
+iot:
   akelbein/kurz:
     v: Freitag, 10.10.25 - 30.01.26 von 10:15 bis 11:45 wöchentlich D14 / 04.04
     p:
